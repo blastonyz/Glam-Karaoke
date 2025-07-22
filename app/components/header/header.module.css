@@ -1,0 +1,33 @@
+@import '../../colors.css';
+
+.mainHeader {
+    background-color: black;
+    z-index: -10;
+    position: relative;
+}
+
+.titlesContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.title{
+    font-family: 'Vogue';
+    color: var(--fucsia);
+    font-size: 4rem;
+    text-shadow: 2px 2px white;
+    margin-top: 20px;
+}
+
+.mainTitle{
+    font-family: 'Super Vanilla';
+    color: var(--fucsia);
+    font-size: 4rem;
+    text-shadow: 2px 2px gold;
+}
+
