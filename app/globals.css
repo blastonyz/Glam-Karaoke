@@ -26,3 +26,7 @@
   font-family: 'Vogue';
   src: url(../public/Vogue.ttf);
 }
+
+main{
+  height: 150vh;
+}

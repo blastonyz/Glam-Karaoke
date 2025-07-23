@@ -1,10 +1,11 @@
-
+import './globals.css'
 import Header from "./components/header/Header"
+
 
 export default function Home() {
   return (
-    <div >
+    <main >
       <Header/>
-    </div>
+    </main>
   );
 }
