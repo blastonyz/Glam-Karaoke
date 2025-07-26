@@ -1,5 +1,6 @@
+import type { MenuCategory } from "@/app/types"
 
-export const links = [
+export const links: MenuCategory[] = [
     {
         item: "Carnes",
         products: [

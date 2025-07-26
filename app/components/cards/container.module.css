@@ -1,0 +1,12 @@
+.cardContainer{
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;*/
+    padding-top:300px;
+      display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+
+  background-color: #f8f8f8;
+}

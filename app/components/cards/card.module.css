@@ -1,0 +1,32 @@
+.mainCard{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border: solid 2px red;
+}
+
+.product{
+    display: flex;
+}
+
+.dish{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+     padding: 0.5rem 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #161111;
+}
+
+
+.dish p:first-child {
+  color: var(--rosa);
+}
+
+.dish p:last-child {
+  color: #131b55;
+}

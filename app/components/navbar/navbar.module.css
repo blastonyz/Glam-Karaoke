@@ -1,4 +1,6 @@
-.navbar{
+@import '../../colors.css';
+
+.navbar {
     position: fixed;
     width: 100%;
     background-color: rgba(252, 249, 249, 0.1);
@@ -7,32 +9,40 @@
     padding: 10px 20px;
 }
 
-.links{
+.links {
     position: absolute;
     top: 0;
     left: 0;
-    background-color:  rgba(0, 0, 0, 0.9);
+    /*background-color:  rgba(0, 0, 0, 0.9);*/
+    background: linear-gradient(135deg, var(--celeste) ,var(--azul), var(--rosa) 40%,var(--lila), var(--violeta), var(--celeste));
     color: aliceblue;
     width: max-content;
     height: 100vh;
     padding: 20px;
+    border-radius: 0 15px 15px 0;
+    box-shadow:
+        0 0 8px var(--fucsia),
+        0 0 16px var(--fucsia),
+        0 0 32px var(--fucsia);
+    ;
+     transition: transform 0.2s ease;
 }
 
-.linksList{
+.linksList {
     color: aliceblue;
     font-size: large;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
-.li{
+.li {
     list-style-type: none;
     padding-top: 25px;
 }
 
-.iconContainer{
+.iconContainer {
     position: relative;
     z-index: 300;
     display: flex;
@@ -40,6 +50,4 @@
     margin-right: 20px;
 }
 
-@media (max-width:500px){
-    
-}
+@media (max-width:500px) {}

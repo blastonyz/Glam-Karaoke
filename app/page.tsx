@@ -1,11 +1,11 @@
 import './globals.css'
-import Header from "./components/header/Header"
+import CardContainer from './components/cards/CardContainer';
 
 
 export default function Home() {
   return (
     <main >
-      <Header/>
+      <CardContainer/>
     </main>
   );
 }

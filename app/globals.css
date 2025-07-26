@@ -28,5 +28,5 @@
 }
 
 main{
-  height: 150vh;
+  height: max-content;
 }
