@@ -1,12 +1,16 @@
-.cardContainer{
-    /*display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;*/
-    padding-top:300px;
-      display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+.cardContainer {
+  padding-top: 300px;
+  display: flex;
+  flex-direction: column;
   gap: 2rem;
-
+  margin: 0px 100px;
   background-color: #f8f8f8;
+  align-items: stretch;
+}
+
+@media (max-width:768px) {
+  .cardContainer{
+    margin: 0 25px;
+    padding-top: 200px;
+  }
 }
