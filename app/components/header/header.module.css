@@ -13,7 +13,7 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    padding: 50px 0px;
+    padding: 70px 0px;
 }
 
 .title{
@@ -63,7 +63,7 @@
         top: 0;
     }
     .imageHead{
-        height: 150px;
+        height: 180px;
     }
 }
 

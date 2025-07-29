@@ -58,7 +58,7 @@
 }
 
 .iconBorder {
-    padding: 3px;
+    padding: 1px;
     box-shadow:
         0 0 8px var(--fucsia),
         0 0 16px var(--lila),
