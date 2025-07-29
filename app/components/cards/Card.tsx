@@ -8,7 +8,10 @@ const Card = ({ link }: { link: MenuCategory }) => {
   return (
     <section className={style.cardBorder}>
 
-      <div className={style.mainCard}>
+      <div  
+      className={style.mainCard}
+      id={link.item.toLowerCase().replace(/\s+/g, "-")}
+      >
         <div className={style.categoryTitleContainer}>
           <h3 className={style.categoryTitle}>{link.item}</h3>
         </div>
@@ -34,8 +37,8 @@ const Card = ({ link }: { link: MenuCategory }) => {
             {
               link.images.map((img, index) => (
                 <CldImage
-                  width={216}
-                  height={216}
+                  width={220}
+                  height={220}
                   src={img}
                   crop={'fill'}
                   alt={`de lo mejor en ${link.item} de nuestra carta`}

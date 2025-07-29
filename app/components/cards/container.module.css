@@ -6,15 +6,16 @@
   margin: 0px 100px;
   max-width: 1500px;
   align-items: stretch;
+ 
 }
 
-@media (max-width:1120px){
+@media (max-width:1140px){
   .cardContainer{
-    margin: 0 200px;
+    margin: 0 220px;
   }
 }
 
-@media (max-width:880px){
+@media (max-width:925px){
   .cardContainer{
     margin: 0 100px;
   }
