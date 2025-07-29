@@ -22,6 +22,7 @@
         0 0 16px var(--fucsia),
         0 0 32px var(--fucsia);
     ;
+    overflow: hidden;
 }
 
 .linksList {
