@@ -21,7 +21,7 @@ export const links: MenuCategory[] = [
                 price: 17500
             },
             {
-                name: "Tabla de Milanesas p/4pers. con papas",
+                name: "Tabla de Milanesas p/4 pers. con papas",
                 price: 52000
             },
             {
@@ -36,7 +36,8 @@ export const links: MenuCategory[] = [
                 name: "Bife de Chorizo",
                 price: 24000
             }
-        ]
+        ],
+        images:['https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719557/mila-napo2_ojm0wb.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719557/mila-napo_szqn8e.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719556/matambre_rc075o.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719553/bife-chor_nz7vbm.jpg']
     },
     {
         item: "Parrilla",
@@ -69,7 +70,8 @@ export const links: MenuCategory[] = [
                 name: "Cabrito los Cardones c/papas, choclo y salsa a las finas hierbas",
                 price: 28500
             }
-        ]
+        ],
+        images:['https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719553/cabrito_qohazf.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719558/parrillada_trtf81.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719558/tira_y5xjqq.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719554/chinchu_qpbjx4.jpg']
     },
     {
         item: "Guarniciones",
@@ -106,7 +108,8 @@ export const links: MenuCategory[] = [
                 name: "Ensalada Completa",
                 price: 7000
             },
-        ]
+        ],
+        images:['https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719557/papas_jcyun8.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719557/papas-crema_so0dgx.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719557/papas-cheddar_reth3y.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719557/mixta_nld6yl.jpg']
     },
     {
         item: "Postres",
@@ -147,7 +150,8 @@ export const links: MenuCategory[] = [
                 name: "copa Helada los Cardones (helado, cayote, nueces)",
                 price: 8000
             },
-        ]
+        ],
+        images:['https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719556/escoces_ljyyfq.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719559/batata_wch83z.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719556/copa-helada_vbmwk9.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719553/flan_v7vmah.jpg']
     },
     {
         item: "Platos Regionales",
@@ -173,7 +177,8 @@ export const links: MenuCategory[] = [
                 price: 23000
             }
 
-        ]
+        ],
+        images:['https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719556/empanadas_ohdyxo.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719556/locro_huy8m0.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719558/tamales_wwyjn2.jpg']
     },
     {
         item: "Pastas",
@@ -198,7 +203,8 @@ export const links: MenuCategory[] = [
                 name: "Sorrentinos con Salsa ",
                 price: 18000
             },
-        ]
+        ],
+        images:['https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719557/noquis_w3yrka.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719558/sorrentinos_tkqqva.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719558/tallarines_pbrq1d.jpg'],
     },
     {
         item: "Salsas",
@@ -207,7 +213,8 @@ export const links: MenuCategory[] = [
                 name: "Filetto, Blanca, Bolognesa, 4 Quesos o Parisienne",
                 price: 0
             }
-        ]
+        ],
+        images:[]
     },
     {
         item: "Especialidades",
@@ -276,7 +283,8 @@ export const links: MenuCategory[] = [
                 name: "Pollo grillado a la Provenzal con papas firtas (ajo, perejil y vino Blanco",
                 price: 23000
             }
-        ]
+        ],
+        images:['https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719558/pollo_igjt29.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719556/lomo_fthiiu.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719553/brochette_wbotrx.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719558/wok_s83qvt.jpg']
     },
     {
         item: "Tragos",
@@ -314,7 +322,8 @@ export const links: MenuCategory[] = [
                 name: "Cinzano",
                 price: 7000
             }
-        ]
+        ],
+        images:['https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719557/daiquiri_b9bkvj.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719553/gin_wy2vzo.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719553/fernet_xfo7pl.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719555/cinzano_aiuigg.jpg']
     },
     {
         item: "Cervezas",
@@ -355,7 +364,8 @@ export const links: MenuCategory[] = [
                 name: "Corona Lata",
                 price: 10000
             }
-        ]
+        ],
+        images:['https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719555/heineken_kjdirj.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719556/imperial_vxmxf7.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719556/corona_tbu98q.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719558/salta_ecuw8n.jpg']
     },
     {
         item: "Vinos",
@@ -414,7 +424,8 @@ export const links: MenuCategory[] = [
                 price: 27000
             }
 
-        ]
+        ],
+        images:['https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719558/quara_ry0kvi.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719558/piatelli_wjum8j.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719556/humanao_gzszio.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719553/cafayate_jkkzpq.jpg']
     },
     {
         item: "Bebidas",
@@ -440,13 +451,14 @@ export const links: MenuCategory[] = [
                 price:8100
             },
               {
-                name: "Limonada (mneta,jengibre)",
+                name: "Limonada (menta, jengibre)",
                 price:6500
             },
               {
                 name: "Limonada de Frutilla o Frutos Rojos",
                 price:7000
             }
-        ]
+        ],
+        images:['https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719555/coca_d0e81m.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719556/limonada_boe9hu.jpg']
     }
 ]

@@ -3,7 +3,10 @@ export interface Products {
     price: number
 }
 
+
+
 export interface MenuCategory {
     item: string;
     products:Products[];
+    images: stirng[]
 }
