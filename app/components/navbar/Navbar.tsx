@@ -26,12 +26,16 @@ useEffect(() => {
 
 
   return (
+    <>
     <nav className={style.navbar}>
       <div className={style.iconContainer} onClick={handleClick}>
        <div className={style.iconBorder}> <MenuIcon size={30} color={scrolled? 'turquoise' : 'white'} /></div>
       </div>
 
-      <div className={openMenu? style.links : style.hide} >
+     
+
+    </nav>
+     <div className={openMenu? style.links : style.hide} >
         <ul className={style.linksList}>
           {openMenu ?
             links.map((cat, index) => (
@@ -56,8 +60,7 @@ useEffect(() => {
           <img src="logo-cardones.jpg" alt="logo de peña Los Cardones" className={style.familyImage}/>
         </div>
       </div>
-
-    </nav>
+      </>
   )
 }
 
