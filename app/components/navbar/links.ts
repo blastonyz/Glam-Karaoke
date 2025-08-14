@@ -1,6 +1,36 @@
 import type { MenuCategory } from "@/app/types"
 
 export const links: MenuCategory[] = [
+     {
+        item: "Ofertas 0:01 AM",
+        products: [
+            {
+                name: "Pizzas variedad a consultar",
+                price:15000
+            },
+              {
+                name: "Sandwich de Milanesa",
+                price:13000
+            },
+              {
+                name: "Lomito",
+                price:13000
+            },
+              {
+                name: "Hamburguesa",
+                price:10000
+            },
+              {
+                name: "Porción de Papas",
+                price:5000
+            },
+              {
+                name: "Tragos",
+                price:5000
+            }
+        ],
+        images:['https://res.cloudinary.com/dmq4gtk4w/image/upload/v1755188552/mila_prljyc.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1755188791/pizza_sp873x.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1755188552/tragos_eoedzt.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719557/papas_jcyun8.jpg']
+    },
     {
         item: "Carnes",
         products: [
@@ -178,7 +208,7 @@ export const links: MenuCategory[] = [
             }
 
         ],
-        images:['https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719556/empanadas_ohdyxo.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719556/locro_huy8m0.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719558/tamales_wwyjn2.jpg']
+        images:['https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719556/empanadas_ohdyxo.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1755188552/locro_yxn7of.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1755188552/cazuela_svvdes.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719558/tamales_wwyjn2.jpg']
     },
     {
         item: "Pastas",
@@ -204,7 +234,7 @@ export const links: MenuCategory[] = [
                 price: 18000
             },
         ],
-        images:['https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719557/noquis_w3yrka.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719558/sorrentinos_tkqqva.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719558/tallarines_pbrq1d.jpg'],
+        images:['https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719557/noquis_w3yrka.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719558/sorrentinos_tkqqva.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1755188552/ravioles_kvem7p.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719558/tallarines_pbrq1d.jpg'],
     },
     {
         item: "Salsas",
@@ -459,6 +489,7 @@ export const links: MenuCategory[] = [
                 price:7000
             }
         ],
-        images:['https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719555/coca_d0e81m.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719556/limonada_boe9hu.jpg']
+        images:['https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719555/coca_d0e81m.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1755188552/ravioles_kvem7p.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1755189256/licuado-fruti_g5kz4p.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719556/limonada_boe9hu.jpg']
     }
+   
 ]
