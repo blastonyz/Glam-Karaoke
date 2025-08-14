@@ -489,7 +489,7 @@ export const links: MenuCategory[] = [
                 price:7000
             }
         ],
-        images:['https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719555/coca_d0e81m.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1755188552/ravioles_kvem7p.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1755189256/licuado-fruti_g5kz4p.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719556/limonada_boe9hu.jpg']
+        images:['https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719555/coca_d0e81m.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1755189241/aguas_mr4qyo.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1755189256/licuado-fruti_g5kz4p.jpg','https://res.cloudinary.com/dmq4gtk4w/image/upload/v1753719556/limonada_boe9hu.jpg']
     }
    
 ]
